@@ -1,0 +1,29 @@
+programining Translators...
+
+There are 3 translators.
+1) Assembler -> It is only used for Assembly Language which convert into machine code.
+but for High Level Language, two of translators are used.
+2) Compiler: Compiler may convert program into machine code.
+3) interpreter: interpreter may convert program into machine code.
+The main differance between Compiler and Interpreter is that compiler convert the before the 
+execution of program while Interpreter is convert while the program is executing.
+
+Explanation: 
+-> How compiler works? 
+Ans) -> The compiler takes the whole program and convert it into object code.
+     -> The process is fast because it take whole program one time,no repetation occurs.
+     -> It shown the all error present in the program at once.
+     Example: C,C++
+
+whereas,
+
+-> How Interpreter works?
+Ans) The Interpreter takes one line at a time and excute it and than move to other line, so 
+     there is no need for object code.
+     -> The process is slow because it take one line at a time to excute.
+     -> It not shown the error at once, because execute line by line so when the error is present 
+     first line it's doesn't move to second line to excute whille showing the first line error,
+     after solving the first line error than Interpreter move to the second line.  
+     Example: Python,Ruby etc
+
+
