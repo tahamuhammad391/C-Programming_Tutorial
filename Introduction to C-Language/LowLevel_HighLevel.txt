@@ -1,0 +1,29 @@
+High Level and Low level Language........!
+
+Q1) What is Low Level Language? 
+Ans) Low Level Language comes with,
+     a) Machine Language
+     b) Assembly Language 
+     Key Points of Machine language: 
+     -> This Low Lavel Language is very closed to harware,means no need for interpreter or Compiler 
+        because its also a machine language, which result in fast Processing.
+     -> It is Machine oriented, means you need a extensive knowledge of Hardware Configuration 
+        or CPU Architecture.
+     -> It is not Protable means, if you write same code in different CPU Architecture than you needs 
+        write According to that Hardware Configuration.
+    Key Points of Assembly language:
+    -> In this language some functions is readable by humans like "ADD", "SUB" etc but again its is low level language 
+       because of closed binding of Machine Language.
+    -> This languge needs a Assembler to convert the program into Machine language, so it is slower than 
+       Machine Language, machine Language is directly Execute were as Assembly language needs to
+       convert the code than Execute by the Hardware.
+    -> Assembly Language is also Machine oriented, means dependent on computer Architecture, because
+       every Assembly language is design for a specific computer Architecture. this means its is not 
+       portable. 
+
+Q) What is High Level Language? 
+Ans) -> This Language is very closed to humnas, humnas can easily understands this language like 
+     English language. 
+     -> In this language we don't need to know about the Hardware specification or system Architecture.
+     -> This language is also a portable language, means it can read in different type of Architectures.
+     -> The Processing speed is less as compare to the Low Level Languages.

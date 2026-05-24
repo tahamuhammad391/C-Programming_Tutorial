@@ -1,0 +1,20 @@
+ Introduction to Programing...........
+
+ Q1) What is Programing? 
+ Ans) Programing is a set of Instruction which is understod by the Machine, Example: If we want to 
+      Add two numbers, than with the help of programing language we give the instructions to machine 
+      to perform that tasks. As we all Know that computer only Understand "O" and "1" format which is 
+      "Binary". 
+      "C" is a high Level Language but before "C" There is multiple language used to give the set of 
+      instructions to machine, which are called Low level Language or Assembly Language. 
+      At Earlier, the programming is perform acording Hardware Architecture, because CPU Architecture 
+      code will differ, which means its machine dependent. 
+      But to overcomes all these dependency high level language will come to add potability concept
+      means, same code or same instructions is suitable for two different type of Machine.
+
+
+Q2) Waht is C-Language?
+Ans) -> This Language is develop by "Dennis Ritches" in 1972 at Bells Labs in USA.
+     -> Successor of B Language, because "C" more powerfull than "B" Language.
+     -> It is a system programing Language. 
+     -> Oracle, Andriod, Major part of Web Broswer is written in "C", Device Driver, Linux OS.
