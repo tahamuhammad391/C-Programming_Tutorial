@@ -1,0 +1,34 @@
+"Structure of C-program"
+1) Documentation System: It may also called Comment Section. 
+   a) Single Line Comment -> // Single Line
+   b) Multiple line Comment -> /*   Multiplr lines */ 
+   These comment is used for document some sort of information related to the program.
+Example: Auther name , Date and Time or to explain How programs works.
+But, these line are ingnored by the compiler.
+
+2) Link Section: Inthis section we include Header Files which starting with #.
+   Example: #include<stdio.h> , #include<conio.h>.
+   # -> It is preprocessor.
+   stdio -> Standard input and output, means this library is for printf() and scanf(),
+   and the meaning of these function is written in the library stdio.h.
+   .h -> It is header file. 
+
+3) Defination Section: In this section you will define a macro like, MAX 100 so if you want to used 
+   10 time the value of 100 in the program than you will write MAX 10 times in your program instead
+   of writing "100" 10 times.
+   Examples : #define MAX 100  #define PI 3.142  #define SUM 50 
+
+4) Global Declaration Section: There are 2 types of declaration methods 1) Global 2) Local Variable 
+   1) Local Variables are define only inside the function rather it is main function or user define 
+      function, but outside that function local variable is dead.
+   2) Global function are define outside the function, outside of main function as well as 
+      User Define function and it is alive through out the program.
+
+5) Main Section :This section is compulsory becasue when you run the program the control will goes 
+                to the main function.
+                Example : void main(){
+                    return 0;
+                }
+          
+6) Sub Program Section: In this section the user define function is include in the main program,
+                        This section is not compulsory and not used in every program.
