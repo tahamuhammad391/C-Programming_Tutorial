@@ -1,0 +1,39 @@
+Contants in C-Language.
+Note : #define PI 3.142 -> theses are symbolic Constant.
+There are 2 types of Contants
+1) Numeric Constant -> 1) Integer  2) Floating / Real Constant.
+2) Character Constant -> 1) Single character Constant 2) String Constant.
+
+A)Integer Constant: The integer Constant contain 3 types of constants.
+  1) decimal integer constants -> Ex: 10,5,90,100 etc
+  2) octal integer constants -> Ex: 05, 03,07 etc
+  3) Hexadecimal integer constants -> 0x5A, 0xFF etc 
+
+B) Floating/ Real Constant: These constant have a fraction part Ex: 12.56 so, 12 is integer part decimal
+                            point and 56 is fraction part, we initialize these constant like 
+                            Ex: float a=12.56
+
+
+2) Character Constant:
+   a) Single character Constant: These constant consist of single characters in single code marks
+                                 like 'a','@','1',these character may be alphabet,numbers or any special 
+                                 characters etc.
+Note: these both things are different 5 =! '5'. same '5'=!"5" are different. 
+      '5' -> It is single character while "5" is string Constant because it is in the double codes.
+
+Note: A-Z=65-90
+      a-z = 97-122
+      0-9 = 48-57
+      special Char = 0-47 or 58-64
+
+    b) String Constant: These constant consist of multiple characters in Double code marks like 
+                        "Taha" -> It is string constant and the lenght of this string is 5 because 
+                        in this string their is one more character is include '\0' which indicated
+                        that it is end of the string.
+
+
+Const Keyword: This Const keyword is used before the data type and it means if you initiallize a 
+               variable with const keyword than you are not allow to change the value of that variable 
+               through out the program. 
+               Example : const int a = 10;
+    

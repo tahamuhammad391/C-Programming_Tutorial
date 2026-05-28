@@ -1,0 +1,30 @@
+Variables in C-language. 
+
+Variables : It is type of container which store the values of different data types such as integer,
+            float, double, char etc. 
+
+Q)   Why we need the variables? 
+Ans) To store the values which is process further in the program, like sum of two interger numnber.
+     first we want to store these two numbers in variables than perform addition of both numbers.
+
+Declare The Variable: 
+       Syntax:  Datatype VariableName
+                int sum; -> In this statment we tell that sum is variable of integer datatype.
+
+Initialization Of The Variable:
+        Syntax:  VariableName=Value
+                 sum=10; -> In this statment "sum" variable store the value 10 integer datatype. 
+                            now the 10 number is store in main memory with name of "sum". 
+
+Note: You may Declara and Initialize together like Ex: int a = 10; or you may also write 
+      Ex: int a=10,b=20; -> this mean "a" and "b" variable are declara with integer datatype and 
+      Initialize with 10,20 values respectively.
+
+
+Rules For Constructing the Variables:
+-> The variable always should be start with alphabet or _ only like sum,Max etc.
+-> No special characters are allowed in the variables except "_". Ex: sum 12,sum$123 etc.
+-> The variable never start with number like: 12sum, 2max etc.
+-> The numbers should be used after the alphabet or atlest one alphabet Ex: sum12, s1,s2 etc.
+Note: There is difference between variables which is declara with lowercase or uppercase or 
+      capitilazation.  Ex: max,MAX,Max etc.   

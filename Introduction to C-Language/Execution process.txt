@@ -1,0 +1,19 @@
+Execution process of C-Language. 
+
+-> We save the file with extension "First.C" .
+-> Firstly in this file the preprocessor will come and execute only those lines which starting with
+   "#".
+The preprocessor will read those line which starting with "#" and expanding the source code 
+which define the meaning of predefine functions (printf() or scanf()).
+for suppose if we used #include<stdio.h> library than in this library printf() and scanf() functions are define.
+It is also called intermediate source code that why it convert into First.i extension.
+
+-> Now compilation process will done and if error is present than again goes to the source code.
+   If there is no error than code will goes to the assembler (First.asm) 
+-> Than Assembly will convert the file into object file (First.obj)
+-> Now Linker is in the Action and link all object code into one file and link with system library.
+so now those library is link with object code.
+-> Now the Excutable file has been created (First.exe)
+
+-> Now the final part of Loader, this loader will load the exe into main memory
+   (Ram) and from main memory CPU may process the program. 
